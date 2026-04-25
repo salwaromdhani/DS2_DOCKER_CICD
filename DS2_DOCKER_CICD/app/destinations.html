@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Destinations — Horizon Voyages</title>
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/animations.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">
+        <span class="logo-icon">✦</span> Horizon Voyages
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="destinations.html" class="active">Destinations</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- PAGE HEADER -->
+  <section class="page-header">
+    <div class="page-header-content">
+      <p class="section-tag">Explorez le monde</p>
+      <h1 class="page-title">Nos Destinations</h1>
+      <p class="page-subtitle">120+ destinations soigneusement sélectionnées pour vous</p>
+    </div>
+  </section>
+
+  <!-- FILTER BAR -->
+  <section class="filter-section">
+    <div class="container">
+      <div class="filter-bar">
+        <button class="filter-btn active" data-filter="all">Tout</button>
+        <button class="filter-btn" data-filter="asia">Asie</button>
+        <button class="filter-btn" data-filter="europe">Europe</button>
+        <button class="filter-btn" data-filter="africa">Afrique</button>
+        <button class="filter-btn" data-filter="america">Amériques</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- DESTINATIONS GRID -->
+  <section class="destinations-full">
+    <div class="container">
+      <div class="destinations-grid" id="destinationsGrid">
+
+        <div class="destination-card" data-continent="asia">
+          <div class="card-img bg-japan">
+            <div class="card-badge">Populaire</div>
+          </div>
+          <div class="card-body">
+            <div class="card-meta"><span>🌏 Asie</span><span>12 jours</span></div>
+            <h3>Japon — Tokyo & Kyoto</h3>
+            <p>Temples millénaires, ruelles néon, cerisiers en fleur. Le Japon est un voyage entre deux mondes.</p>
+            <div class="card-footer">
+              <span class="price">2 490€ <small>/pers.</small></span>
+              <a href="contact.html" class="btn-sm">Réserver</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="destination-card" data-continent="asia">
+          <div class="card-img bg-bali">
+            <div class="card-badge">Nouveauté</div>
+          </div>
+          <div class="card-body">
+            <div class="card-meta"><span>🌏 Asie</span><span>10 jours</span></div>
+            <h3>Bali — Île des Dieux</h3>
+            <p>Rizières en terrasses, temples hindous et plages de surf. Une île magique et ressourçante.</p>
+            <div class="card-footer">
+              <span class="price">1 790€ <small>/pers.</small></span>
+              <a href="contact.html" class="btn-sm">Réserver</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="destination-card" data-continent="europe">
+          <div class="card-img bg-grece">
+          </div>
+          <div class="card-body">
+            <div class="card-meta"><span>🌍 Europe</span><span>10 jours</span></div>
+            <h3>Grèce — Santorin & Athènes</h3>
+            <p>Maisons blanches, mer turquoise, gastronomie méditerranéenne et histoire antique.</p>
+            <div class="card-footer">
+              <span class="price">1 190€ <small>/pers.</small></span>
+              <a href="contact.html" class="btn-sm">Réserver</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="destination-card" data-continent="europe">
+          <div class="card-img bg-italie">
+          </div>
+          <div class="card-body">
+            <div class="card-meta"><span>🌍 Europe</span><span>7 jours</span></div>
+            <h3>Italie — Rome & Amalfi</h3>
+            <p>La Ville Éternelle, la côte amalfitaine, pasta al dente. L'Italie ne déçoit jamais.</p>
+            <div class="card-footer">
+              <span class="price">980€ <small>/pers.</small></span>
+              <a href="contact.html" class="btn-sm">Réserver</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="destination-card" data-continent="africa">
+          <div class="card-img bg-maroc">
+            <div class="card-badge">Coup de cœur</div>
+          </div>
+          <div class="card-body">
+            <div class="card-meta"><span>🌍 Afrique</span><span>8 jours</span></div>
+            <h3>Maroc — Marrakech & Désert</h3>
+            <p>Souks colorés de Marrakech, nuit sous les étoiles dans le Sahara. Un voyage des sens.</p>
+            <div class="card-footer">
+              <span class="price">890€ <small>/pers.</small></span>
+              <a href="contact.html" class="btn-sm">Réserver</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="destination-card" data-continent="america">
+          <div class="card-img bg-usa">
+          </div>
+          <div class="card-body">
+            <div class="card-meta"><span>🌎 Amériques</span><span>14 jours</span></div>
+            <h3>USA — New York & Miami</h3>
+            <p>Big Apple, plages de South Beach, road trip le long de la côte Est américaine.</p>
+            <div class="card-footer">
+              <span class="price">2 890€ <small>/pers.</small></span>
+              <a href="contact.html" class="btn-sm">Réserver</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="logo-icon">✦</span> Horizon Voyages
+        <p>Votre agence de voyage premium depuis 2009.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Navigation</h4>
+        <a href="index.html">Accueil</a>
+        <a href="destinations.html">Destinations</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer-contact">
+        <h4>Contact</h4>
+        <p>📧 contact@horizonvoyages.fr</p>
+        <p>📞 +33 1 23 45 67 89</p>
+        <p>📍 12 Rue de la Paix, Paris</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Horizon Voyages — Projet DS1 Git/GitHub — Esprit School of Business</p>
+      <p>Mahjoub Mohamed Anis · Ksouri Mohamed Aziz · Hassan Ahmed Mohamed</p>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+  <script src="../js/filter.js"></script>
+</body>
+</html>
