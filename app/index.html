@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Horizon Voyages — Explorez le Monde</title>
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/animations.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">
+        <span class="logo-icon">✦</span> Horizon Voyages
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html" class="active">Accueil</a></li>
+        <li><a href="destinations.html">Destinations</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <div class="hero-overlay"></div>
+      <div class="floating-shapes">
+        <div class="shape s1"></div>
+        <div class="shape s2"></div>
+        <div class="shape s3"></div>
+      </div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-tag fade-in-up delay-1">Agence de voyage premium</p>
+      <h1 class="hero-title fade-in-up delay-2">
+        Explorez le Monde<br /><em>À Votre Façon</em>
+      </h1>
+      <p class="hero-subtitle fade-in-up delay-3">
+        Des expériences sur mesure, des destinations inoubliables.<br />
+        Votre aventure commence ici.
+      </p>
+      <div class="hero-cta fade-in-up delay-4">
+        <a href="destinations.html" class="btn btn-primary">Voir les destinations</a>
+        <a href="contact.html" class="btn btn-outline">Nous contacter</a>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>Défiler</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- STATS BAR -->
+  <section class="stats-bar">
+    <div class="stats-container">
+      <div class="stat-item">
+        <span class="stat-number">120+</span>
+        <span class="stat-label">Destinations</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <span class="stat-number">8 500</span>
+        <span class="stat-label">Voyageurs satisfaits</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <span class="stat-number">15</span>
+        <span class="stat-label">Années d'expérience</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <span class="stat-number">4.8★</span>
+        <span class="stat-label">Note moyenne</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="features" id="about">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">Pourquoi nous choisir</p>
+        <h2 class="section-title">Une expérience<br />inégalée</h2>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">🌍</div>
+          <h3>Voyages Sur Mesure</h3>
+          <p>Chaque itinéraire est personnalisé selon vos envies, votre budget et votre rythme de voyage.</p>
+        </div>
+        <div class="feature-card featured">
+          <div class="feature-icon">✈️</div>
+          <h3>Vols & Hôtels Inclus</h3>
+          <p>Nous gérons tout : billets d'avion, hébergements 4-5 étoiles et transferts aéroport.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🛡️</div>
+          <h3>Assistance 24/7</h3>
+          <p>Notre équipe est disponible à toute heure pour vous accompagner où que vous soyez dans le monde.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DESTINATIONS HIGHLIGHT -->
+  <section class="destinations-highlight">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">Nos coups de cœur</p>
+        <h2 class="section-title">Destinations<br />Populaires</h2>
+      </div>
+      <div class="dest-grid">
+        <div class="dest-card large">
+          <div class="dest-img" style="background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);">
+            <div class="dest-pattern japan"></div>
+          </div>
+          <div class="dest-info">
+            <h3>Japon</h3>
+            <p>Asie • 12 jours</p>
+            <span class="dest-price">À partir de 2 490€</span>
+          </div>
+        </div>
+        <div class="dest-card">
+          <div class="dest-img" style="background: linear-gradient(135deg, #2d6a4f 0%, #1b4332 100%);">
+            <div class="dest-pattern maroc"></div>
+          </div>
+          <div class="dest-info">
+            <h3>Maroc</h3>
+            <p>Afrique • 8 jours</p>
+            <span class="dest-price">À partir de 890€</span>
+          </div>
+        </div>
+        <div class="dest-card">
+          <div class="dest-img" style="background: linear-gradient(135deg, #c77dff 0%, #7b2d8b 100%);">
+            <div class="dest-pattern grece"></div>
+          </div>
+          <div class="dest-info">
+            <h3>Grèce</h3>
+            <p>Europe • 10 jours</p>
+            <span class="dest-price">À partir de 1 190€</span>
+          </div>
+        </div>
+      </div>
+      <div class="see-all">
+        <a href="destinations.html" class="btn btn-secondary">Voir toutes les destinations →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="logo-icon">✦</span> Horizon Voyages
+        <p>Votre agence de voyage premium depuis 2009.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Navigation</h4>
+        <a href="index.html">Accueil</a>
+        <a href="destinations.html">Destinations</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer-contact">
+        <h4>Contact</h4>
+        <p>📧 contact@horizonvoyages.fr</p>
+        <p>📞 +33 1 23 45 67 89</p>
+        <p>📍 12 Rue de la Paix, Paris</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Horizon Voyages — Projet DS1 Git/GitHub — Esprit School of Business</p>
+      <p>Mahjoub Mohamed Anis · Ksouri Mohamed Aziz · Hassan Ahmed Mohamed</p>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>
